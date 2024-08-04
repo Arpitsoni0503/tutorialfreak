@@ -1,0 +1,108 @@
+@media only screen and (min-width:200px) and (max-width:576px){
+
+    header nav{
+    max-width: 100%;
+}
+
+    .left{
+        display: flex;
+        flex-direction: column;
+   width: 100%;
+   gap: 0px;
+}
+.left figure {
+    max-width: 100%;
+    text-align: center;
+}
+.left button{
+    width: 100%;
+    margin-top: 0;
+}
+header .right{
+    display: none;
+}
+
+.additioninner{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.create{
+   max-width: fit-content;
+
+}
+.image img{
+    max-width: 100%;
+}
+.certified{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.certified .courses,.professtional,.focus{
+    max-width: 100%;
+}
+
+.exploreinner{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;    
+}
+.justo{
+    width: 100%;
+}
+.justo h3{
+    margin-top: 0px;
+}
+.explore .frame {
+    width: 100%;
+}
+.dsa{
+    width: 100%;
+}
+.dsainner{
+max-width: 100%;
+   margin-left: 0px;
+}
+.dsainner1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;}
+
+.dsainner1 .hack1,.dsa1,.webdev,.master{
+    margin-left: 0%;
+    width: 100%;
+}
+.accountinner1{
+    max-width: 100%;
+}
+.accountinner2{
+    width: 100%;
+}
+.phoneinner1{
+    max-width: 100%;
+   
+}
+.phoneinner1 .left{
+   width: 100%;
+}
+ .phoneinner1 .left .links,p{
+    margin-top: 10%;
+
+ }
+ .right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+ }
+ .right .img1{
+    width: 100%;
+ }
+ .trending{
+    width: 100%;
+ }
+ .trending1{
+    max-width: 100%;
+ }
+}

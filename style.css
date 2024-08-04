@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 100%;
+    font-family: sans-serif;
+
+}
+
+/* header starts */
+header {
+    max-width: 100%;
+    top: 0;
+}
+
+header nav {
+    max-width: 1350px;
+    margin: auto;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    gap: 50px;
+    width: 35%;
+}
+
+.left button {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: #F0F0F0;
+    height: fit-content;
+    text-align: center;
+    border-radius: 7px;
+    padding-left: 3px;
+    border-color: #9074FF;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.left button img {
+    width: 20px;
+}
+
+.right {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.right button {
+    cursor: pointer;
+}
+
+.right .btn2 {
+    height: fit-content;
+    margin-top: 2%;
+    border: none;
+    background-color: white;
+}
+
+.btn1 {
+    height: fit-content;
+    margin-top: 3.5%;
+    border: none;
+    background-color: white;
+}
+
+.btn1-1:hover {
+    color: #9074FF;
+}
+
+/* header ends */
+/* additionn starts */
+
+.addition {
+    max-width: 100%;
+}
+
+.create {
+    max-width: 37%;
+}
+
+.additioninner {
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additioninner .create {
+    margin-left: 15%;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.create .p1 {
+    width: fit-content;
+    margin-bottom: 6%;
+    color: #9074FF;
+    font-weight: bold;
+}
+
+.create h1 {
+    font-size: 60px;
+    margin-bottom: 6%;
+}
+
+.create p {
+    color: #6b7646;
+    margin-bottom: 10%;
+}
+
+.create button {
+    padding: 16px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+:hover.button {
+    background-color: #9074FF;
+    color: #F0F0F0;
+}
+
+.image {
+    max-width: fit-content;
+}
+
+.image img {
+    max-width: 100%;
+    margin-top: 1%;
+
+}
+
+/* addition ends */
+/* graph starts */
+.graph {
+    max-width: 100%;
+}
+
+.graphinner {
+    max-width: 1350px;
+    margin: auto;
+}
+
+.graphinner1 {
+    max-width: 100%;
+}
+
+.features {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.features p,
+h3 {
+    margin-top: 12px;
+}
+
+.features .p {
+    margin-top: 0px;
+    color: #9074FF;
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.certified {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.certified .courses,
+.professtional,
+.focus {
+    border: 1px solid rgb(139, 136, 136);
+    max-width: 30%;
+    border-radius: 10px;
+    margin-top: 3%;
+    transition: 0.5s ease-in-out;
+}
+.certified .courses {
+    padding: 10px;
+}
+
+.certified img {
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.certified .courses p {
+    margin-top: 13%;
+    font-weight: bold;
+}
+
+.certified .courses .p1 {
+    font-weight: normal;
+    color: #6b7646;
+}
+
+.certified .professtional {
+    padding: 10px;
+}
+
+
+.certified .professtional p {
+    margin-top: 13%;
+    font-weight: bold;
+}
+
+.certified .professtional .p1 {
+    font-weight: normal;
+    color: #6b7646;
+}
+
+.certified .focus {
+    padding: 10px;
+}
+
+.certified .focus p {
+    margin-top: 13%;
+    font-weight: bold;
+}
+
+.certified .focus .p1 {
+    font-weight: normal;
+    color: #6b7646;
+}
+:hover.courses{
+    background-color: #9074FF;
+    color: #F0F0F0;
+}
+:hover.courses .p1{
+    color: #F0F0F0;
+}
+:hover.professtional{
+    background-color: #9074FF;
+    color: #F0F0F0;
+}
+:hover.professtional .p1{
+    color: #F0F0F0;
+}
+:hover.focus{
+    background-color: #9074FF;
+    color: #F0F0F0;
+}
+
+:hover.focus .p1{
+    color: #F0F0F0;
+}
+/* categories starts */
+.explore{
+    max-width: 100%;
+    margin-top: 5%;
+}
+.exploreinner{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+}
+.justo{
+    width: 50%;
+}
+.justo h3{
+    font-size: 30px;
+    margin-top: 25%;
+}
+.justo ul{
+    margin-top: 5%;
+}
+.justo .button{
+    padding: 16px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 5%;
+}
+.justo ul li{
+   line-height: normal;
+}
+.exploreinner .frame {
+    width: 50%;
+}
+.exploreinner .frame img {
+    max-width: 100%;
+}
+.justo ul{
+    list-style: none;
+}
+/* categories ends */
+/* dsa starts */
+.dsa{
+    max-width: 100%;
+}
+.dsainner{
+    max-width: 60%;
+    margin: auto;
+
+}
+.dsainner1{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dsainner1 .hack1,.dsa1,.webdev,.master{
+    width: 21%;
+    border: 1px solid rgb(175, 172, 172);
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.dsainner1 .hack1,.dsa1,.webdev,.master, .award {
+    padding-left: 2%;
+}
+.dsainner1 .hack1,.dsa1,.webdev,.master, .award ,h4 ,p{
+    padding-top: 2%;
+    margin-top: 10%;
+    
+}
+.dsainner1 :hover{
+    background-color: #9074FF;
+    color: #F0F0F0;
+}
+
+/* dsa ends */
+/* account starts */
+.account{
+    width: 100%;
+}
+.accountinner1{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.accountinner1 h3{
+    margin-top: 5%;
+    padding-top: 13%;
+    font-size: 40px;
+}
+.accountinner1 .btn11,.btn2{
+    margin-top: 4%;
+padding: 10px;
+margin-right: 3%;
+transition: 0.5s;
+border-radius: 7px;
+margin-bottom: 10%;
+}
+.accountinner1 .btn11:hover{
+background-color: #9074FF;
+color: #F0F0F0;
+}
+.accountinner1 .btn2:hover{
+    background-color: #9074FF;
+    color: #F0F0F0;
+    }
+
+/* account ends */
+/* phone satrts */
+.phone{
+    width: 100%;
+
+}
+.phoneinner1{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 7%;
+}
+.phoneinner1 .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.phoneinner1 .left h3{
+    font-size: 25px;
+}
+.phoneinner1 .left p{
+    margin-top: 0px;
+    font-size: 19px;
+    color: #6b7646;
+}
+.phoneinner1 .left .links{
+    margin-top: 0px;
+    margin-bottom: 10%;
+}
+.phoneinner1 .left button {
+    padding: 16px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.phoneinner1 .right{
+    width: 50%;
+}
+.phoneinner1 .right .img1,.img2{
+    width: 40%;
+    margin-bottom: 10%;
+}
+.phoneinner1 .right .img2 {
+    margin-top: 9%;
+}
+.trending{
+    max-width: 100%;
+}
+.trending1{
+    max-width: 60%;
+    margin: auto;
+}
+.trending1 img{
+    max-width: 100%;
+}
+.trending1 .img10{
+    margin-top: 10%;
+}
